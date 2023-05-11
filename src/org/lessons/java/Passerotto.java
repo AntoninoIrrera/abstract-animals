@@ -1,9 +1,9 @@
 package org.lessons.java;
 
 import org.lessons.java.astratta.Animale;
-import org.lessons.java.interfaccia.Volare;
+import org.lessons.java.interfaccia.IVolare;
 
-public class Passerotto extends Animale implements Volare{
+public class Passerotto extends Animale implements IVolare{
 
 	@Override
 	public void verso() {

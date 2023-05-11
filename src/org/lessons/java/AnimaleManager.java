@@ -1,17 +1,17 @@
 package org.lessons.java;
 
 //import org.lessons.java.astratta.Animale;
-import org.lessons.java.interfaccia.Nuotare;
-import org.lessons.java.interfaccia.Volare;
+import org.lessons.java.interfaccia.INuotare;
+import org.lessons.java.interfaccia.IVolare;
 
 public class AnimaleManager {
 	
 	
-	public void faiVolare(Volare volante) {
+	public void faiVolare(IVolare volante) {
 		volante.vola();
 	}
 	
-	public void faiNuotare(Nuotare nuotatore) {
+	public void faiNuotare(INuotare nuotatore) {
 		nuotatore.nuota();
 	}
 

@@ -1,6 +1,6 @@
 package org.lessons.java.interfaccia;
 
-public interface Nuotare {
+public interface INuotare {
 	
 	
 	void nuota();
