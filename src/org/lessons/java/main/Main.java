@@ -26,6 +26,8 @@ public class Main {
 			animali[i].verso();
 			animali[i].mangia();
 			
+			
+			
 		}
 		
 		

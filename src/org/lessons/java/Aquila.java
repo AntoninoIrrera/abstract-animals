@@ -1,8 +1,9 @@
 package org.lessons.java;
 
 import org.lessons.java.astratta.Animale;
+import org.lessons.java.interfaccia.Volare;
 
-public class Aquila extends Animale {
+public class Aquila extends Animale implements Volare {
 
 	@Override
 	public void verso() {
@@ -17,5 +18,9 @@ public class Aquila extends Animale {
 	}
 
 	
-
+	@Override
+	public void vola() {
+		// TODO Auto-generated method stub
+		System.out.println("sto volando");
+	}
 }
